@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Peti zadatak</title>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <script>
+        function checkAnswers() {
+            var odg = document.getElementById("odgovor").value;
+             if (odg==200) {
+             alert("Točan odgovor!");
+             } else {
+             alert("Netočan odgovor! Pokušajte ponovno!");
+             }
+            }
+        </script>
+
+        <style>
+            body {
+                background-image: url(grid.jpg);
+                text-align: center;
+                font-size: 30px;
+                font-family: 'Permanent Marker', cursive;
+                color: darkslategray;
+                padding-top: 145px;
+            }
+            input[type="submit"] {
+                width: 100px;
+                height: 50px;
+                padding: 2px;
+                margin-left: 10px;
+                box-shadow: 3px 3px 3px rgb(47,79,79);
+            }
+            input[type="text"] {
+                height: 50px;
+                width: 200px;
+                padding: 2px;
+            }
+            a {
+                color: white;
+                font-family: 'Permanent Marker', cursive;
+                font-size: 20px;
+                font-weight: bold;
+                text-decoration: none;
+                width: 200px;
+                background-color: darkslategray;
+                border-bottom: 1px solid white;
+                display: inline;
+                margin-left: 3px;
+                margin-top: 10px;
+                padding: 0 20px;
+	            text-align: center;
+	        }
+            a:hover {
+                font-family: 'Permanent Marker', cursive;
+                font-size: 22px;
+                text-shadow: 3px 3px 2px black;
+	        }
+        </style>
+    </head>
+        <body>
+        <a href="/vjezba5.html">Natrag</a>
+        <h3>Zbroj brojeva 100 i 300 umanji za razliku brojeva 700 i 500!</h3>
+        <form action="">
+            <label for="odgovor">Odgovor:</label>
+            <br>
+            <input type="text" id="odgovor">
+            <br>
+            <br>
+        <input type="submit" value="Prihvati" onClick="checkAnswers()">
+        </form>
+        </body>
+</html>

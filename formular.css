@@ -1,0 +1,114 @@
+body {
+    margin: 50px;
+    font-family: 'Indie Flower', cursive;
+    background-color:  #D5DCDC;
+}
+
+form {
+    width:400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(151,167,167);
+    border: 6px double#D5DCDC;
+    border-radius: 10px;
+}
+
+input, fieldset, select {
+    font-size: 14px;
+    width: 97%;
+    padding: 15px;
+    margin: 10px;
+    background-color: #C1CACA;
+    border: 2px solid rgb(47,79,79);
+    box-sizing: border-box;
+}
+
+input:focus {
+    background-color: rgb(47,79,79);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+fieldset input {
+    width: 10%;
+}
+fieldset label {
+    display: inline-block;
+    width: 80%;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 100px;
+    height: 50px;
+    padding: 2px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 3px rgb(47,79,79);
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    box-shadow: 3px 5px 3px rgb(47,79,79);
+}
+
+input[type="color"] {
+    height: 60px;
+    padding: 2px;
+}
+
+#zadatak1 ol.prva {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #EAEDED;
+	text-align: center;
+}
+#zadatak1 ol.prva li {
+    display: inline;
+    background-color: darkslategrey;
+    margin-left: 3px;
+    margin-top: 10px;
+    padding: 0 20px;
+	text-align: center;
+}
+
+#zadatak1 li {
+    width: 200px;
+    padding-left: 30px;
+    background-color: darkslategray;
+    border-bottom: 1px solid white;
+}
+
+#zadatak1 li a {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#zadatak1 li:first-child a:hover {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+    text-shadow: 3px 3px 2px black;
+}
+
+#zadatak1 li:nth-child(2) a:hover {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+    text-shadow: 3px 3px 2px black;
+}
+
+#zadatak1 li:nth-child(3) a:hover {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+    text-shadow: 3px 3px 2px black;
+}
+
+#zadatak1 li:nth-child(4) a:hover {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+    text-shadow: 3px 3px 2px black;
+}

@@ -1,0 +1,55 @@
+#zadatak1 ol.prva {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: darkslategray;
+	text-align: center;
+}
+#zadatak1 ol.prva li {
+    display: inline;
+    margin-left: 3px;
+    margin-top: 10px;
+    padding: 0 10px;
+	text-align: center;
+}
+#zadatak1 .druga {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	color: white;
+	margin-left: 25px;
+	
+	list-style-type: upper-alpha;
+	
+	border-top: 1px solid black;
+	padding-top: 25px;
+	}
+
+#zadatak1 .druga em {
+	color: lightgray;
+	font-weight: bold;
+	font-size: 26px;
+	font-style: italic;
+	font-family: Brush Script MT;
+}
+
+a {
+	color: darkslategray;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+   font-weight: bold;
+   text-decoration: none;
+   width: 200px;
+   background-color: rgb(151,167,167);
+   border-bottom: 1px solid white;
+  display: inline;
+   margin-left: 3px;
+  margin-top: 10px;
+  padding: 0 20px;
+ text-align: center;
+}
+a:hover {
+font-family: 'Permanent Marker', cursive;
+font-size: 22px;
+text-shadow: 3px 3px 2px black;
+}

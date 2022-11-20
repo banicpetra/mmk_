@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-image: url(grid.jpg);
+    text-align: center;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #263F3F;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    line-height: 140px;
+    position: absolute;  
+}
+
+.red1 {
+    top: 100px;
+    font-family: Courier;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.red2 {
+    top: 250px;
+    font-family: Courier;
+    font-size: 40px;
+    border-radius: 35%;
+}
+.red3 {
+    top: 400px;
+    font-family: Courier;
+    font-size: 50px;
+    border-radius: 10%;
+}
+.red4 {
+    top: 570px;
+    font-family: Courier;
+    font-size: 60px;  
+}
+
+.stupac1 {
+    left: 350px;
+}
+.stupac2 {
+    left: 500px;
+}
+.stupac3 {
+    left: 650px;
+} 
+.stupac4 {
+    left: 800px;
+}
+.stupac5 {
+    left: 950px;
+}
+
+
+.red1.stupac1 {
+    background-color: #D5DCDC;
+    color: #263F3F;
+}
+.red1.stupac3 {
+    background-color: #D5DCDC;
+    color: #263F3F;
+}
+.red1.stupac5 {
+    background-color:#D5DCDC;
+    color: #263F3F;
+}
+.red2.stupac2 {
+    background-color: rgb(172, 185, 185);
+    color: #D5DCDC;
+}
+.red2.stupac4 {
+    background-color:  rgb(172, 185, 185);
+    color: #D5DCDC;
+}
+.red3.stupac1 {
+    background-color: #6D8484;
+    color: #263F3F;
+}
+.red3.stupac3 {
+    background-color: #6D8484;
+    color: #263F3F;
+}
+.red3.stupac5 {
+    background-color: darkslategrey;
+    color: #D5DCDC;
+}
+.red4.stupac2 {
+    background-color: darkslategrey;
+    color: #D5DCDC;
+}
+.red4.stupac4 {
+    background-color: darkslategrey;
+    color: #D5DCDC;
+}
+
+@media screen and (max-width: 600px) {
+    .container div {
+        border-radius: 50%;
+        border-width: 1px;
+        float: left;
+        position: static;
+    }
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: darkslategray;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#zadat2 {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 200px;
+    background-color: darkslategray;
+    border-bottom: 1px solid white;
+    display: inline;
+    margin-left: 3px;
+    margin-top: 10px;
+    padding: 0 20px;
+	text-align: center;
+	}
+
+#zadat2:hover {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+    text-shadow: 3px 3px 2px black;
+	}

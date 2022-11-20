@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Vjezba 2 </title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <selection id="zadatak1">
+        <ol>
+            <li>prvi</li>
+            <li>drugi</li>
+            <li>treci</li>
+            <li>cetvrti</li>
+            <li>peti</li>
+        </ol>
+    </selection>
+    <selection id="zadatak2">
+
+    </selection>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Formular za izradu racuna</title>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="formular.css">
+    </head>
+    <body>
+        <selection id="zadatak1">
+        <ol class="prva">
+            <li><a href="zadat2.html">Naslovnica</a></li>
+            <li><a href="racunskizadatak.html">Zadaci</a></li>
+            <li><a href="vjezba5.html">Zadaci za djecu</a></li>
+            <li><a href="vjezba3.html">Navigacija</a></li>
+            <li><a href="cijene.html">Cijene</a></li>
+        </ol>
+        </selection>
+
+    <form action="">
+        <label for="ime">Ime</label>
+        <input type="text" id="ime" placeholder="Vase ime..." autofocus required>
+        <label for="prezime">Prezime</label>
+        <input type="text" id="prezime" placeholder="Vase prezime" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email">
+        <label for="mobitel">Broj mobitela</label>
+        <input type="tel" id="mobitel">
+        <label for="username">Username</label>
+        <input type="text" id="username" required>
+        <label for="lozinka">Password</label>
+        <input type="password" id="lozinka" required maxlength="10">
+        <label for="web">Web adresa</label>
+        <input type="url" id="web" placeholder="grf.unizg.hr">
+        <label for="rodjendan">Datum rodenja</label>
+        <input type="date" id="rodjendan">
+    <fieldset>
+        <legend>Spol</legend>
+        <input type="radio" value="M" id="M" name="spol"><label for="M">Muski</label>
+        <input type="radio" value="F" id="F" name="spol"><label for="F">Zenski</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Odabir pretplate</legend>
+        <input type="radio" value="Besplatna pretplata" id="Besplatna pretplata" name="pretplata"><label for="Besplatna pretplata">Besplatna pretplata</label>
+        <input type="radio" value="Mjesecna pretplata" id="Mjesecna pretplata" name="pretplata"><label for="Mjesecna pretplata">Mjesecna pretplata</label>
+        <input type="radio" value="Godisnja pretplata" id="Godisnja pretplata" name="pretplata"><label for="Godisnja pretplata">Godisnja pretplata</label>
+    </fieldset>
+
+    <label for="dostava">Odabir mogucnosti dostave</label>
+    <select name="dostava">
+        <datalist>
+            <option>Dostava na e-mail</option>
+            <option>Dostava na kucnu adresu</option>
+            <option>Bez dostave</option>
+        </datalist>
+    </select>
+
+    <label for="boja">Odabir boje omota</label>
+    <input type="color" id="boja" name="boja">
+
+    <label></label>
+    <label for="komentar">Komentar</label>
+    <input type="text" id="komentar" name="komentar">
+
+    <input type="checkbox" id="uvjeti" name="uvjeti">
+    <label for="uvjeti">Prihvacam uvjete koristenja.</label>
+
+    <input type="reset" value="Ponisti">
+    <input type="submit" value="Prihvati">
+    </form>
+    </body>
+</html>

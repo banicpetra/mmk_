@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-image: url(grid.jpg);
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    line-height: 140px;
+    position: absolute;
+}
+
+#d1 {
+    top: 0;
+    left: 0;
+}
+#d2 {
+    top: 0;
+    left: 300px;
+}
+#d3 {
+    top: 0;
+    left: 600px;
+}
+#d4 {
+    top: 150px;
+    left: 150px;
+}
+#d5 {
+    top: 150px;
+    left: 450px;
+}
